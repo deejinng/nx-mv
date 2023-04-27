@@ -3,10 +3,8 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&display=swap');
 
-
 * {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Josefin Sans", "Inter", sans-serif;
 }
