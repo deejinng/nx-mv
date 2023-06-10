@@ -1,12 +1,12 @@
 import Head from "next/head";
 
-export default function Layout({ children }) {
+export default function Layout({ title, children }) {
   return (
     <>
       <Head>
-        <title>Next App</title>  
+        <title>{title}</title>
       </Head>
       <main className="container">{children}</main>
     </>
   );
-}
+};
